@@ -1,0 +1,13 @@
+package Fundamentos;
+
+public class NotacaoPonto {
+	public static void main(String[] args) {
+		String s = "Bom dia Ju.";
+		
+		System.out.println(s);
+		s.replace("Ju", "Fernando");
+		s.concat(", benção do Pai!");
+		s.toUpperCase();
+	}
+
+}
